@@ -13,7 +13,8 @@ app = FastAPI()
 def index():
     return {'Message': 'Welcome to WellnessHub API'}
 
-
+def showme():
+    print('Hellow world')
 
 @app.get('/chat')
 def show(para :str):
